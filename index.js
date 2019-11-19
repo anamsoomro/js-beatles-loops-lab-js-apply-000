@@ -8,17 +8,28 @@ function theBeatlesPlay (musicians, instruments){
 }
 
 
-function johnLennonFacts(facts){
-  var excitingFacts=[]
-  var i = 0
-  while (i < facts.length){
-    excitingFacts.push(`${facts[i]}!!!`)
-    i++
-  }
-  return excitingFacts
-}
+// function johnLennonFacts(facts){
+//   var excitingFacts=[]
+//   var i = 0
+//   while (i < facts.length){
+//     excitingFacts.push(`${facts[i]}!!!`)
+//     i++
+//   }
+//   return excitingFacts
+// }
 
 //come back to try to do the above without making a new array 
+
+function johnLennonFacts (facts){
+ var i = 0
+  while (i < facts.length){
+    facts[i] = `${facts[i]}!!!`
+    i++
+  }
+  return facts
+}
+
+
 
 function iLoveTheBeatles(number){
   var howMuchLove=[]
