@@ -21,6 +21,7 @@ function theBeatlesPlay (musicians, instruments){
 //come back to try to do the above without making a new array 
 
 function johnLennonFacts (facts){
+ facts = {} ; 
  var i = 0
   while (i < facts.length){
     facts[i] = `${facts[i]}!!!`
