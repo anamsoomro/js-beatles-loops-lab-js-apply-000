@@ -17,7 +17,8 @@ function theBeatlesPlay (musicians, instruments){
 //   }
 //   return excitingFacts
 // }
-//this function doesnt change global facts 
+
+//this function doesnt change global facts array
 
 //come back to try to do the above without making a new array 
 
@@ -29,7 +30,7 @@ function johnLennonFacts (facts){
   }
   return facts
 }
-//this function effects the content of facts outside of this function too
+//this function changes the global facts array
 
 
 
