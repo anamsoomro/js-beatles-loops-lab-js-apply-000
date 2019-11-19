@@ -17,11 +17,11 @@ function theBeatlesPlay (musicians, instruments){
 //   }
 //   return excitingFacts
 // }
+//this function doesnt change global facts 
 
 //come back to try to do the above without making a new array 
 
 function johnLennonFacts (facts){
- facts = {} ; 
  var i = 0
   while (i < facts.length){
     facts[i] = `${facts[i]}!!!`
@@ -29,6 +29,9 @@ function johnLennonFacts (facts){
   }
   return facts
 }
+//this function effects the content of facts outside of this function too
+
+
 
 
 function iLoveTheBeatles(number){
