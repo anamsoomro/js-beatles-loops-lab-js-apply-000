@@ -28,7 +28,7 @@ function johnLennonFacts (facts){
   }
   return facts
 }
-
+console.log(facts)
 
 
 function iLoveTheBeatles(number){
